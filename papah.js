@@ -889,7 +889,7 @@ break
 @${orang.split('@')[0]} ❤️️ @${jodoh.split('@')[0]}`
             let menst = [orang, jodoh]
             let buttons = [
-                        { buttonId: 'jadian', buttonText: { displayText: '⛱️' Jadian }, type: 1 }
+                        { buttonId: 'jadian', buttonText: { displayText: 'Jadian'}, type: 1 }
                     ]
                     await papah.sendButtonText(m.chat, buttons, jawab, nyoutube, m, {mentions: menst})
             }
